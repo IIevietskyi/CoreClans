@@ -1,0 +1,25 @@
+name: CoreClans
+main: dev.iievietskyi.coreclans.CoreClansPlugin
+version: 1.0.0
+api-version: '1.16'
+authors: [IIevietskyi]
+description: Core clan system with fair objective wars (capture/beacon/crystal), anti-zerg and JSON storage
+softdepend: [PlaceholderAPI, Vault]
+commands:
+  clan:
+    description: Main CoreClans command
+    usage: /clan help
+    aliases: [cc]
+  clanadmin:
+    description: CoreClans admin command
+    usage: /clanadmin help
+permissions:
+  coreclans.user:
+    default: true
+    description: Basic CoreClans access
+  coreclans.admin:
+    default: op
+    description: Full CoreClans administration
+  coreclans.bypass:
+    default: op
+    description: Bypass war restrictions

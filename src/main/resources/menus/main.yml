@@ -1,0 +1,147 @@
+id: main
+title: "&8CoreClans - Main"
+size: 45
+
+items:
+  clan_info:
+    slot: 10
+    material: PLAYER_HEAD
+    skull-owner: "{player}"
+    name: "&eClan Profile"
+    lore:
+      - "&7Player: &f{player}"
+      - "&7Clan: &f{clan_name} &8[&f{clan_tag}&8]"
+      - "&7Members: &f{clan_members} &8| &7Online: &f{clan_online}"
+      - "&7Bank: &f{clan_bank}"
+      - "&7Points: &f{clan_points} &8| &7Rank: &f{clan_rank}"
+      - ""
+      - "&eClick: /clan info"
+    action:
+      type: command
+      value: "clan info"
+
+  online:
+    slot: 11
+    material: COMPASS
+    name: "&bOnline Members"
+    lore:
+      - "&7Check who is online in your clan"
+      - ""
+      - "&eClick: /clan online"
+    action:
+      type: command
+      value: "clan online"
+
+  bank:
+    slot: 12
+    material: GOLD_INGOT
+    name: "&6Clan Bank"
+    lore:
+      - "&7Current balance: &f{clan_bank}"
+      - "&7Use Vault wallet for deposit/withdraw"
+      - ""
+      - "&eClick: /clan bank"
+    action:
+      type: command
+      value: "clan bank"
+
+  war_panel:
+    slot: 14
+    material: IRON_SWORD
+    glow: true
+    name: "&cWar Control"
+    lore:
+      - "&7Active: &f{war_active}"
+      - "&7Mode: &f{war_mode}"
+      - "&7Status: &f{war_status}"
+      - "&7Time left: &f{war_time_left}s"
+      - ""
+      - "&eClick: open War Menu"
+    action:
+      type: open_menu
+      value: "war"
+
+  objectives:
+    slot: 15
+    material: BEACON
+    name: "&dObjectives Panel"
+    lore:
+      - "&7Capture: &f{objective_capture}"
+      - "&7Beacon: &f{objective_beacon}"
+      - "&7Crystal: &f{objective_crystal}"
+      - ""
+      - "&eClick: open Objectives Menu"
+    action:
+      type: open_menu
+      value: "objectives"
+
+  siege:
+    slot: 16
+    material: CLOCK
+    name: "&aSiege Windows"
+    lore:
+      - "&7Open now: &f{siege_open}"
+      - ""
+      - "&eClick: /clan siege window view"
+    action:
+      type: command
+      value: "clan siege window view"
+
+  top:
+    slot: 28
+    material: DIAMOND
+    name: "&bTop Clans"
+    lore:
+      - "&7Global ranking by season points"
+      - ""
+      - "&eClick: /clan top"
+    action:
+      type: command
+      value: "clan top"
+
+  bounty:
+    slot: 29
+    material: PAPER
+    name: "&eBounty"
+    lore:
+      - "&7View active bounty contracts"
+      - ""
+      - "&eClick: /clan bounty info"
+    action:
+      type: command
+      value: "clan bounty info"
+
+  help:
+    slot: 31
+    material: BOOK
+    name: "&aCommand Help"
+    lore:
+      - "&7Open command help"
+      - ""
+      - "&eClick: /clan help"
+    action:
+      type: command
+      value: "clan help"
+
+  admin:
+    slot: 37
+    material: REDSTONE_TORCH
+    permission: "coreclans.admin"
+    name: "&cAdmin Panel"
+    lore:
+      - "&7Management tools"
+      - ""
+      - "&eClick: open Admin Menu"
+    action:
+      type: open_menu
+      value: "admin"
+
+  close:
+    slot: 40
+    material: BARRIER
+    name: "&cClose"
+    lore:
+      - "&7Close this menu"
+    action:
+      type: close
+      value: ""

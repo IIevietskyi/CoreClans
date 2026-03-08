@@ -1,0 +1,110 @@
+id: war
+title: "&8CoreClans - War"
+size: 45
+
+items:
+  info:
+    slot: 10
+    material: NETHER_STAR
+    name: "&cWar Status"
+    lore:
+      - "&7Active: &f{war_active}"
+      - "&7Mode: &f{war_mode}"
+      - "&7Status: &f{war_status}"
+      - "&7Time left: &f{war_time_left}s"
+      - "&7Capture: &f{war_capture}"
+      - ""
+      - "&eClick: /clan war info"
+    action:
+      type: command
+      value: "clan war info"
+
+  logs:
+    slot: 11
+    material: WRITABLE_BOOK
+    name: "&6War Logs"
+    lore:
+      - "&7Latest replay summaries"
+      - ""
+      - "&eClick: /clan war log"
+    action:
+      type: command
+      value: "clan war log"
+
+  preview_capture:
+    slot: 13
+    material: GREEN_WOOL
+    name: "&aPreview Capture Entries"
+    lore:
+      - "&7Shows real reachable entries"
+      - ""
+      - "&eClick: /clan objective preview capture"
+    action:
+      type: command
+      value: "clan objective preview capture"
+
+  preview_beacon:
+    slot: 14
+    material: LIGHT_BLUE_WOOL
+    name: "&bPreview Beacon Entries"
+    lore:
+      - "&7Shows real reachable entries"
+      - ""
+      - "&eClick: /clan objective preview beacon"
+    action:
+      type: command
+      value: "clan objective preview beacon"
+
+  preview_crystal:
+    slot: 15
+    material: MAGENTA_WOOL
+    name: "&dPreview Crystal Entries"
+    lore:
+      - "&7Shows real reachable entries"
+      - ""
+      - "&eClick: /clan objective preview crystal"
+    action:
+      type: command
+      value: "clan objective preview crystal"
+
+  windows:
+    slot: 29
+    material: CLOCK
+    name: "&eSiege Window"
+    lore:
+      - "&7Open now: &f{siege_open}"
+      - ""
+      - "&eClick: /clan siege window view"
+    action:
+      type: command
+      value: "clan siege window view"
+
+  objective_panel:
+    slot: 30
+    material: BEACON
+    name: "&dObjective Panel"
+    lore:
+      - "&7Open objective manager"
+    action:
+      type: open_menu
+      value: "objectives"
+
+  back:
+    slot: 39
+    material: ARROW
+    name: "&fBack"
+    lore:
+      - "&7Return to main menu"
+    action:
+      type: open_menu
+      value: "main"
+
+  close:
+    slot: 40
+    material: BARRIER
+    name: "&cClose"
+    lore:
+      - "&7Close this menu"
+    action:
+      type: close
+      value: ""

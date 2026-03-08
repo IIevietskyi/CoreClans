@@ -1,0 +1,66 @@
+help:
+  header: "&eCoreClans commands:"
+  line-1: "&7/clan create <name>, /clan invite <player>, /clan join <name>, /clan leave"
+  line-2: "&7/clan chat <msg>, /clan chat toggle, /clan bank <deposit|withdraw> <amount>"
+  line-3: "&7/clan war challenge <clan> <capture|beacon|crystal> [stake], /clan war accept <id>, /clan war deny <id>"
+  line-4: "&7/clan objective set <capture|beacon|crystal>, /clan objective validate, /clan objective preview"
+
+common:
+  no-permission: "&cNo permission."
+  player-only: "&cThis command is for players only."
+  reloaded: "&aCoreClans reloaded."
+
+clan:
+  created: "&aClan {clan} created."
+  disbanded: "&cClan {clan} disbanded."
+  already-in-clan: "&cYou are already in a clan."
+  not-in-clan: "&cYou are not in a clan."
+  invited: "&aInvitation sent to {player}."
+  invite-received: "&eYou were invited to clan {clan}. Use /clan join {clan}."
+  joined: "&aYou joined clan {clan}."
+  left: "&eYou left your clan."
+  kicked: "&cPlayer {player} removed from clan."
+  promote: "&aPlayer {player} promoted to {role}."
+  demote: "&ePlayer {player} demoted to {role}."
+  online: "&eOnline members ({online}/{total}): {list}"
+  sethome: "&aClan home updated."
+  home-missing: "&cClan home is not set."
+
+bank:
+  deposit: "&aDeposited {amount}. Clan bank: {bank}"
+  withdraw: "&eWithdrew {amount}. Clan bank: {bank}"
+  not-enough: "&cNot enough money in clan bank."
+  invalid-amount: "&cInvalid amount. Use a positive number."
+  vault-required: "&cVault economy not found. Install Vault + economy plugin (EssentialsX Economy)."
+  player-not-enough: "&cNot enough money in your wallet."
+  tx-failed: "&cEconomy transaction failed. Please try again."
+
+objective:
+  set: "&a{type} objective set at your location."
+  removed: "&e{type} objective removed."
+  invalid: "&cObjective invalid: {reason}"
+  valid: "&aObjective is valid and reachable."
+
+war:
+  challenge-created: "&eWar request #{id} sent to {clan} ({mode})."
+  challenge-received: "&eWar request #{id} from {clan}. Use /clan war accept {id} or /clan war deny {id}."
+  challenge-denied: "&cWar request denied."
+  started: "&cWar started: {attacker} vs {defender} ({mode})"
+  ended: "&aWar ended. Winner: {winner}. Reason: {reason}"
+  no-active: "&7No active war for your clan."
+  forfeit: "&cYour clan forfeited the war."
+  queue: "&eWar queue: you are #{position}."
+  outside-window: "&cWar is not allowed now. Siege window is closed."
+  objective-missing: "&cDefender does not have required objective for mode {mode}."
+  same-clan: "&cYou cannot start a war against your own clan."
+  already-active: "&cOne of these clans is already in an active war."
+  invalid-stake: "&cInvalid stake. Use 0 or a positive number."
+  stake-not-enough: "&cNot enough clan bank for stake {stake}. Both clans must have this amount."
+  request-invalid: "&cWar request is invalid or attacker clan no longer exists."
+
+bounty:
+  created: "&aBounty contract created on {clan} for {reward}."
+  none: "&7No active bounty contract."
+
+season:
+  reset: "&eSeason reset complete."

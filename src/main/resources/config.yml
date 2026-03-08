@@ -1,0 +1,71 @@
+prefix: "&6[CoreClans]&r "
+
+storage:
+  file: "coreclans-data.json"
+  autosave-seconds: 30
+
+clan:
+  max-members: 25
+  min-name-length: 3
+  max-name-length: 16
+  default-tag: "CORE"
+
+claim:
+  default-radius: 64
+  min-radius: 16
+  max-radius: 256
+  objective-border-margin: 12
+  min-y: 35
+  max-y: 180
+
+war:
+  duration-minutes: 30
+  warmup-seconds: 15
+  capture-radius: 5
+  capture-target-seconds: 180
+  crystal-default-hp: 1000
+  attacker-entry-distance: 22
+  required-paths: 2
+  max-path-distance: 110
+  attacker-cap-offset: 2
+  enable-attacker-queue: true
+  blocked-materials-near-objective:
+    - LAVA
+    - WATER
+    - COBWEB
+
+anti-zerg:
+  enabled: true
+  max-penalty-percent: 40
+  tiers:
+    "2": 10
+    "4": 20
+    "6": 30
+  crystal-damage-scaling: true
+  capture-speed-scaling: true
+  underdog-defense-bonus-percent: 8
+
+season:
+  name: "Season 1"
+  length-days: 30
+  divisions:
+    bronze-min: 0
+    silver-min: 500
+    gold-min: 1200
+
+siege-windows:
+  monday: ["18:00-21:00"]
+  tuesday: ["18:00-21:00"]
+  wednesday: ["18:00-21:00"]
+  thursday: ["18:00-21:00"]
+  friday: ["18:00-22:00"]
+  saturday: ["15:00-22:00"]
+  sunday: ["15:00-21:00"]
+
+bounty:
+  enabled: true
+  default-duration-hours: 24
+
+placeholders:
+  no-clan: "-"
+  no-war: "none"

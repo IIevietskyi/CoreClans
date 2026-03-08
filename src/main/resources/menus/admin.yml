@@ -1,0 +1,129 @@
+id: admin
+title: "&8CoreClans - Admin"
+size: 45
+
+items:
+  header:
+    slot: 4
+    material: REDSTONE_BLOCK
+    permission: "coreclans.admin"
+    name: "&cAdmin Control"
+    lore:
+      - "&7Owner tools for your server"
+      - "&7Use with care"
+    action:
+      type: none
+      value: ""
+
+  reload:
+    slot: 10
+    material: COMPARATOR
+    permission: "coreclans.admin"
+    name: "&aReload Plugin"
+    lore:
+      - "&7Reload config/messages/menus"
+      - ""
+      - "&eClick: /clanadmin reload"
+    action:
+      type: command
+      value: "clanadmin reload"
+
+  season_reset:
+    slot: 11
+    material: CLOCK
+    permission: "coreclans.admin"
+    name: "&eSeason Reset"
+    lore:
+      - "&7Reset season with current default name"
+      - ""
+      - "&eClick: /clanadmin season reset"
+    action:
+      type: command
+      value: "clanadmin season reset"
+
+  debug_capture:
+    slot: 13
+    material: GREEN_WOOL
+    permission: "coreclans.admin"
+    name: "&aDebug Path Capture"
+    lore:
+      - "&7Debug your clan capture objective"
+      - ""
+      - "&eClick: /clanadmin debug path {clan_name} capture"
+    action:
+      type: command
+      value: "clanadmin debug path {clan_name} capture"
+
+  debug_beacon:
+    slot: 14
+    material: LIGHT_BLUE_WOOL
+    permission: "coreclans.admin"
+    name: "&bDebug Path Beacon"
+    lore:
+      - "&7Debug your clan beacon objective"
+      - ""
+      - "&eClick: /clanadmin debug path {clan_name} beacon"
+    action:
+      type: command
+      value: "clanadmin debug path {clan_name} beacon"
+
+  debug_crystal:
+    slot: 15
+    material: MAGENTA_WOOL
+    permission: "coreclans.admin"
+    name: "&dDebug Path Crystal"
+    lore:
+      - "&7Debug your clan crystal objective"
+      - ""
+      - "&eClick: /clanadmin debug path {clan_name} crystal"
+    action:
+      type: command
+      value: "clanadmin debug path {clan_name} crystal"
+
+  force_stop_war:
+    slot: 20
+    material: BARRIER
+    permission: "coreclans.admin"
+    name: "&cStop My Clan War"
+    lore:
+      - "&7Force stop active war for your clan"
+      - ""
+      - "&eClick: /clanadmin war stop {clan_name}"
+    action:
+      type: command
+      value: "clanadmin war stop {clan_name}"
+
+  help:
+    slot: 22
+    material: BOOK
+    permission: "coreclans.admin"
+    name: "&6Admin Help"
+    lore:
+      - "&7Show all admin commands"
+      - ""
+      - "&eClick: /clanadmin help"
+    action:
+      type: command
+      value: "clanadmin help"
+
+  open_main:
+    slot: 39
+    material: ARROW
+    permission: "coreclans.admin"
+    name: "&fBack to Main"
+    lore:
+      - "&7Return to player menu"
+    action:
+      type: open_menu
+      value: "main"
+
+  close:
+    slot: 40
+    material: RED_STAINED_GLASS_PANE
+    permission: "coreclans.admin"
+    name: "&cClose"
+    lore:
+      - "&7Close this menu"
+    action:
+      type: close
+      value: ""

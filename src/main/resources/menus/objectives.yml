@@ -1,0 +1,218 @@
+id: objectives
+title: "&8CoreClans - Objectives"
+size: 54
+
+items:
+  status:
+    slot: 4
+    material: BEACON
+    name: "&dObjective Status"
+    lore:
+      - "&7Capture: &f{objective_capture}"
+      - "&7Beacon: &f{objective_beacon}"
+      - "&7Crystal: &f{objective_crystal}"
+      - ""
+      - "&7Claim radius is configured by /clan claim set [radius]"
+    action:
+      type: none
+      value: ""
+
+  set_capture:
+    slot: 10
+    material: GREEN_CONCRETE
+    name: "&aSet Capture"
+    lore:
+      - "&7Set capture objective at your location"
+      - ""
+      - "&eClick: /clan objective set capture"
+    action:
+      type: command
+      value: "clan objective set capture"
+
+  set_beacon:
+    slot: 11
+    material: LIGHT_BLUE_CONCRETE
+    name: "&bSet Beacon"
+    lore:
+      - "&7Set beacon objective at your location"
+      - ""
+      - "&eClick: /clan objective set beacon"
+    action:
+      type: command
+      value: "clan objective set beacon"
+
+  set_crystal:
+    slot: 12
+    material: MAGENTA_CONCRETE
+    name: "&dSet Crystal"
+    lore:
+      - "&7Set crystal objective at your location"
+      - ""
+      - "&eClick: /clan objective set crystal"
+    action:
+      type: command
+      value: "clan objective set crystal"
+
+  remove_capture:
+    slot: 19
+    material: GREEN_TERRACOTTA
+    name: "&2Remove Capture"
+    lore:
+      - "&7Remove capture objective"
+      - ""
+      - "&eClick: /clan objective remove capture"
+    action:
+      type: command
+      value: "clan objective remove capture"
+
+  remove_beacon:
+    slot: 20
+    material: BLUE_TERRACOTTA
+    name: "&1Remove Beacon"
+    lore:
+      - "&7Remove beacon objective"
+      - ""
+      - "&eClick: /clan objective remove beacon"
+    action:
+      type: command
+      value: "clan objective remove beacon"
+
+  remove_crystal:
+    slot: 21
+    material: PURPLE_TERRACOTTA
+    name: "&5Remove Crystal"
+    lore:
+      - "&7Remove crystal objective"
+      - ""
+      - "&eClick: /clan objective remove crystal"
+    action:
+      type: command
+      value: "clan objective remove crystal"
+
+  preview_capture:
+    slot: 28
+    material: GREEN_WOOL
+    name: "&aPreview Capture Entries"
+    lore:
+      - "&7Shows only real reachable entries"
+      - ""
+      - "&eClick: /clan objective preview capture"
+    action:
+      type: command
+      value: "clan objective preview capture"
+
+  preview_beacon:
+    slot: 29
+    material: LIGHT_BLUE_WOOL
+    name: "&bPreview Beacon Entries"
+    lore:
+      - "&7Shows only real reachable entries"
+      - ""
+      - "&eClick: /clan objective preview beacon"
+    action:
+      type: command
+      value: "clan objective preview beacon"
+
+  preview_crystal:
+    slot: 30
+    material: MAGENTA_WOOL
+    name: "&dPreview Crystal Entries"
+    lore:
+      - "&7Shows only real reachable entries"
+      - ""
+      - "&eClick: /clan objective preview crystal"
+    action:
+      type: command
+      value: "clan objective preview crystal"
+
+  validate_here:
+    slot: 32
+    material: LIME_DYE
+    name: "&aValidate Here"
+    lore:
+      - "&7Validate your current location"
+      - ""
+      - "&eClick: /clan objective validate"
+    action:
+      type: command
+      value: "clan objective validate"
+
+  list:
+    slot: 33
+    material: BOOK
+    name: "&eList Objectives"
+    lore:
+      - "&7Print all objective coordinates"
+      - ""
+      - "&eClick: /clan objective list"
+    action:
+      type: command
+      value: "clan objective list"
+
+  claim_32:
+    slot: 37
+    material: WHITE_STAINED_GLASS_PANE
+    name: "&fClaim 32"
+    lore:
+      - "&7Set claim center and radius to 32"
+      - ""
+      - "&eClick: /clan claim set 32"
+    action:
+      type: command
+      value: "clan claim set 32"
+
+  claim_64:
+    slot: 38
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    name: "&fClaim 64"
+    lore:
+      - "&7Set claim center and radius to 64"
+      - ""
+      - "&eClick: /clan claim set 64"
+    action:
+      type: command
+      value: "clan claim set 64"
+
+  claim_96:
+    slot: 39
+    material: GRAY_STAINED_GLASS_PANE
+    name: "&fClaim 96"
+    lore:
+      - "&7Set claim center and radius to 96"
+      - ""
+      - "&eClick: /clan claim set 96"
+    action:
+      type: command
+      value: "clan claim set 96"
+
+  claim_128:
+    slot: 40
+    material: BLACK_STAINED_GLASS_PANE
+    name: "&fClaim 128"
+    lore:
+      - "&7Set claim center and radius to 128"
+      - ""
+      - "&eClick: /clan claim set 128"
+    action:
+      type: command
+      value: "clan claim set 128"
+
+  back:
+    slot: 48
+    material: ARROW
+    name: "&fBack"
+    lore:
+      - "&7Return to main menu"
+    action:
+      type: open_menu
+      value: "main"
+
+  close:
+    slot: 49
+    material: BARRIER
+    name: "&cClose"
+    lore:
+      - "&7Close this menu"
+    action:
+      type: close
+      value: ""
