@@ -6,7 +6,7 @@ All player commands are under `/clan` (alias: `/cc`).
 | Command | Description | Access |
 |---|---|---|
 | `/clan help` | Show command help | Any player |
-| `/clan menu` [main|war|objectives|admin]` | Open GUI menu by id | Any player (`admin` menu requires admin perm) |
+| `/clan menu (main/war/objectives/admin)` | Open GUI menu by id | Any player (`admin` menu requires admin perm) |
 
 ## Clan Management
 | Command | Description | Access |
@@ -47,16 +47,16 @@ All player commands are under `/clan` (alias: `/cc`).
 ## Objectives
 | Command | Description | Access |
 |---|---|---|
-| `/clan objective set <capture|beacon|crystal>` | Set objective at your location | Officer+ |
-| `/clan objective remove <capture|beacon|crystal>` | Remove objective | Officer+ |
+| `/clan objective set <capture/beacon/crystal>` | Set objective at your location | Officer+ |
+| `/clan objective remove <capture/beacon/crystal>` | Remove objective | Officer+ |
 | `/clan objective validate` | Validate current location | Officer+ |
-| `/clan objective preview [capture|beacon|crystal]` | Show reachable entries + particles | Officer+ |
+| `/clan objective preview [capture/beacon/crystal]` | Show reachable entries + particles | Officer+ |
 | `/clan objective list` | List objective coordinates | Officer+ |
 
 ## War
 | Command | Description | Access |
 |---|---|---|
-| `/clan war challenge <clan> <capture|beacon|crystal> [stake]` | Send war request | Officer+ |
+| `/clan war challenge <clan> <capture/beacon/crystal> [stake]` | Send war request | Officer+ |
 | `/clan war accept <id>` | Accept incoming request | Officer+ (defender) |
 | `/clan war deny <id>` | Deny incoming request | Officer+ (defender) |
 | `/clan war info` | Show active war info | Clan member |
@@ -81,10 +81,11 @@ All player commands are under `/clan` (alias: `/cc`).
 |---|---|
 | `/clanadmin help` | Admin command help |
 | `/clanadmin reload` | Reload config/messages/menus |
-| `/clanadmin menu [admin|main|war|objectives]` | Open specific menu |
+| `/clanadmin menu [admin/main/war/objectives]` | Open specific menu |
 | `/clanadmin war stop <clan>` | Force-stop clan war |
-| `/clanadmin war start <attacker> <defender> <capture|beacon|crystal>` | Force-start war |
+| `/clanadmin war start <attacker> <defender> <capture/beacon/crystal>` | Force-start war |
 | `/clanadmin season reset [name]` | Reset season |
 | `/clanadmin points set <clan> <value>` | Set clan season points |
-| `/clanadmin debug path <clan> <capture|beacon|crystal>` | Debug objective path validation |
+| `/clanadmin debug path <clan> <capture/beacon/crystal>` | Debug objective path validation |
+
 
