@@ -6,7 +6,7 @@ All player commands are under `/clan` (alias: `/cc`).
 | Command | Description | Access |
 |---|---|---|
 | `/clan help` | Show command help | Any player |
-| `/clan menu [main|war|objectives|admin]` | Open GUI menu by id | Any player (`admin` menu requires admin perm) |
+| `/clan menu` [main|war|objectives|admin]` | Open GUI menu by id | Any player (`admin` menu requires admin perm) |
 
 ## Clan Management
 | Command | Description | Access |
@@ -87,3 +87,4 @@ All player commands are under `/clan` (alias: `/cc`).
 | `/clanadmin season reset [name]` | Reset season |
 | `/clanadmin points set <clan> <value>` | Set clan season points |
 | `/clanadmin debug path <clan> <capture|beacon|crystal>` | Debug objective path validation |
+
