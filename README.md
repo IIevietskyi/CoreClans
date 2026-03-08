@@ -62,8 +62,8 @@ It combines classic clan features with objective wars, siege time windows, anti-
 ![Compatibility](docs/assets/banner-compatibility.png)
 
 ## Download Links
-- Spigot: `https://www.spigotmc.org/resources/%E2%9A%94%EF%B8%8Fcoreclans-%E2%9C%A8objective-wars-siege-windows-gui-json-1-16-5.133268/`
-- Modrinth: `https://modrinth.com/plugin/coreclans`
+- Spigot: https://www.spigotmc.org/resources/%E2%9A%94%EF%B8%8Fcoreclans-%E2%9C%A8objective-wars-siege-windows-gui-json-1-16-5.133268/
+- Modrinth: https://modrinth.com/plugin/coreclans
 
 ## Build From Source
 ```bash
@@ -85,6 +85,7 @@ If you find bugs or have suggestions, open an issue with your server version, Co
 
 ## Author
 - `IIevietskyi`
+
 
 
 
