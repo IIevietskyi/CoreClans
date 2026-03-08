@@ -30,7 +30,7 @@ It combines classic clan features with objective wars, siege time windows, anti-
 4. Optional: install `PlaceholderAPI` for `%coreclans_*%` placeholders.
 5. In game:
    - `/clan create <name>`
-   - `/clan claim set 64`
+   - `/clan claim set 16/32/64`
    - `/clan objective set capture` (and/or beacon/crystal)
    - `/clan siege window set friday 18:00 22:00`
    - `/clan menu`
@@ -85,6 +85,7 @@ If you find bugs or have suggestions, open an issue with your server version, Co
 
 ## Author
 - `IIevietskyi`
+
 
 
 
