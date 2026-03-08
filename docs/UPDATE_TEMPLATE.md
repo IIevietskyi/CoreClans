@@ -1,7 +1,3 @@
-﻿# Update Post Template
-
-Use this for Spigot/Modrinth release updates.
-
 ## Update Title
 `CoreClans 1.0.0 - Initial Release`
 
@@ -23,3 +19,4 @@ CoreClans 1.0.0 release:
 
 If you find bugs or have suggestions, please open an issue on GitHub.
 ```
+
